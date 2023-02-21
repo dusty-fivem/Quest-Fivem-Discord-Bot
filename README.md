@@ -3,17 +3,27 @@ Let this open source guide your FiveM discord server! Quest FiveM Discord Bot he
 
 # Features
  ➡ Built in Customisable Ticketing System
+ 
  ➡ Auto Update FiveM Status (Shows the amount of players who is in your server, Shows who is in the server and also shows if the server is online or not)
+ 
  ➡ Custom Welcoming System
+ 
  ➡ Auto Role Configuration
+ 
  ➡ Optional Verify System Upon Join!
+ 
  ➡ Discord Logging
  
+ ➡ Custom Suggestion / Bug Logs channel With Logging
 # How to Install
  ➡ Download the file as a Zip/Rar
+ 
  ➡ Extract to Desktop 
+ 
  ➡ Open up CMD in the Mentioned Folder and Write npm install
+ 
  ➡ Open Config.json and Fill out the requested (CHANNEL ID: is the Channel that your Status message is going in, Please Leave Message ID until the Status message was sent upon start!
+ 
  ➡ Run bot by typing node . or node index.js
  
  # Support / Errors 
@@ -24,6 +34,7 @@ Let this open source guide your FiveM discord server! Quest FiveM Discord Bot he
 
 # Previous FiveM Relation Submissions 
 https://github.com/Zesty-Quest/Quest-Verify-FiveM-Discord-Bot/tree/No-Staff-Request
+
 https://github.com/Zesty-Quest/Quest-Verify-FiveM-Discord-Bot/tree/Main-Source
 
 # Upcoming Bots
