@@ -1,0 +1,243 @@
+/*
+Made by Quest
+Github: https://github.com/Dusty-Quest/Quest-Fivem-Discord-Bot
+*/
+
+#wrapper {
+	width: 100vh;
+	font-size: 1em;
+	font-family: 'Courier New', monospace;
+	
+}#Quest {
+	width: 100vh;
+	font-size: 1em;
+font-family: 'Courier New', monospace;
+	  text-align: center;
+	    margin-left: auto;
+    margin-right: auto;
+}
+
+
+h1, h2, h3, p, a, th, td, li {
+  color: #474747;
+  text-decoration: none;
+	font-family: 'Courier New', monospace;
+}
+
+content {
+  color: #474747;
+  text-decoration: none;
+	font-family: 'Courier New', monospace;
+	font-size: 13
+}
+
+
+
+body {
+  background-color: #CCCCCC;
+	margin: 0px;
+  /*Comment those next two lines if you want to edit the presentation more easily*/
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+input {
+  width: 15px;
+  height: 15px;
+  background-color: #CCCCCC;
+  border-color: #CCCCCC;
+  box-shadow: 0 0 0 0;
+  color: #CCCCCC;
+  position: fixed;
+}
+
+
+/*StartPage*/
+
+.start-button {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-style: none;
+  color: #1E1E1E;
+  font-size: 3em;
+  text-decoration: none;
+  font-weight: bolder;
+  text-transform: uppercase;
+  padding: 100px 20px 100px 20px;
+
+  background-color: white;
+  background: linear-gradient(to bottom right, rgba(255,255,255,0.6), rgba(255,255,255,0.001));
+  border-radius: 50px;
+  border: 1px solid rgba(255,255,255,0.2);
+  position: absolute;
+
+  transition: all 1s;
+}
+
+
+/*TopicPage*/
+
+.sub-line {
+  width: 60%;
+  border: 2px solid;
+  border-radius: 2px;
+  border-color: #272343;
+  transition: all 1s;
+}
+
+.topic-topicpage {
+  font-size: 5em;
+  font-weight: 900;
+  color: #CCCCCC;
+  text-transform: uppercase;
+  background-color: #272343;
+  padding: 40px 0px;
+  transition: all 1s;
+}
+
+.name-topicpage {
+  font-size: 1.8em;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: all 1s;
+}
+
+
+/*StartPage*/
+
+header {
+  width: 100%;
+  min-height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+	margin: 0;
+  margin-top: 0;
+  z-index: 1;
+  position: fixed;
+  text-align: center;
+  font-size: 1.6em;
+  background-color: #272343;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.1);
+  transition: all 1s;
+}
+
+/*Basic style for header*/
+header h1 {
+  text-transform: uppercase;
+  color: #CCCCCC;
+}
+
+/*Basic style for sections*/
+section {
+  min-height: 100vh;
+}
+
+.space {
+  height: 60px;
+}
+
+section div h1 {
+  font-size: 2em;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/*Basic style for footer*/
+footer {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  z-index: 1;
+  padding-top: 15px;
+  bottom: 0;
+}
+
+footer ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+footer ul li {
+  margin-right: 40px;
+  display: inline;
+}
+
+
+/*Style for sections*/
+.structure {
+  padding-top: 50px;
+  padding-left: 100px;
+}
+
+.structure ul {
+  float: left;
+  list-style-type: circle;
+  padding-left: 20%;
+}
+
+.structure ul li {
+  padding-top: 6px;
+  font-size: 1.6em;
+  font-weight: bold;
+}
+
+
+.Subtopic01 {
+
+}
+
+
+.Subtopic02 {
+
+}
+
+
+.Subtopic03 {
+
+}
+
+
+.Subtopic04 {
+
+}
+
+
+.Subtopic05 {
+
+}
+
+
+.Subtopic06 {
+
+}
+
+
+.Subtopic07 {
+
+}
+
+
+.Subtopic08 {
+
+}
+
+
+.sources {
+  padding-top: 50px;
+  padding-left: 100px;
+}
+
+.sources ul {
+  float: left;
+  list-style-type: circle;
+}
+
+.sources ul li {
+  padding-top: 6px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.h1 {
+}

@@ -1,0 +1,138 @@
+<!--
+Made by Quest
+Github: https://github.com/Dusty-Quest/Quest-Fivem-Discord-Bot
+-->
+
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<title>ContentPage</title>
+		<link rel="stylesheet"  href="style.css"  type="text/css">
+    <link rel="icon" href="pictures/icon.png">
+		<meta charset ="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <script type="text/javascript" src="script.js"></script>
+	</head>
+
+<body class=""style="">
+<input type="text" onkeypress="nextSubtopic()" id="inputbox" autofocus>
+		<header class="h1">
+<!--Editable-->      <h1 id="Quest">Quest FiveM&nbsp;</h1>
+    </header>
+
+<!--Editable-->
+		<section id="structure">
+			<div class="space"></div>
+			<div class="" style="text-align: center;">
+			  <h1 class="topic">Quest FiveM Docs&nbsp;</h1>
+				<h1 class="topic"><br>
+			    &nbsp; &nbsp; &nbsp; &nbsp;</h1>
+            </div>
+</section>
+
+<!--Editable-->
+	<section id="Subtopic01">
+			<div class="space"></div>
+			<div  style="text-align: center;">
+				<div class="space"></div>
+				<h1 style="topic">Creating A Developer Apllication&nbsp; &nbsp;</h1>
+<content style="topic">Creating the developer Application is simple just head to the discord developer portal and click "New Application" Once done fill in the information required then head over to the "Bot" tab on the left of the page, from there change your name and picture to your liking and for security disable "public bot" and enable "Presence Intent , Server Members Intent and Message Content Intent" Once done copy the Token for the bot (This could require your Two factor Auth Code) and Paste that into the config in the "BOT_TOKEN" Between the Quotation's ("") &nbsp;</content>
+<div class="space"></div>
+<content style="topic">Once That is done head back in the Discord Developer portal Select the Application we made earlier then look for "OAuth2" in the left collum  and Select "URL Generator" From there select Scope "Bot" Then scroll down and under general permissions select "Administrator" Then copy the Generated URL and open that in any browser then select the Discord Server You are dedicating this bot to and click "Continue" , Then Select "Authorize" Note the person adding the bot must be an admin of the server and due to us de-selecting public bot you must also be the owner of the bot &nbsp;</content>
+<h1 style="topic">Next Step : Discord Setup &nbsp; &nbsp;</h1>
+			  
+        </div>
+      <div class="Subtopic01">
+
+      </div>
+		</section>
+
+<!--Editable-->
+		<section id="Subtopic02">
+			<div class="space"></div>
+<div class="" style="text-align: center;">
+    <h1>Bot Config</h1>
+			  <content style="topic">Filling the config is easy starting with the "Quest Key" This is the license key you were provided with purchase , "Next is URL_SERVER" this must start with http:// ServerIP : ServerPort NOT the TXadmin port, then Server Name And logo These are just pretty self explanatory and are just a the name and server logo as a link I believe imgur or discord are easiest , Next is embed color this is universal across every embed the discord bot will send so make this your server color, Leaving the Permission varible Unless told otherwise this perm is relevant to who can set the message of the day on the status message, Bot Token is already complete as we did this earlier when setting up the application, we will fill CHANNEL_ID with the channel ID for the constantly updating status message leave MESSAGE_ID for now until the bot has started for the first time, SUGGESTION_CHANNEL , BUG_CHANNEL and BUG_LOG_CHANNEL are easy to understand fill them in with the relevant channel IDs, The LOG_CHANNEL is the general logs channel created earlier if you are reusing another channel just put that ID in instead, WEBSITE_URL and WEBSITE_NAME are related to the button on the bottom of the status message the url is the link the button will take you too and the name is the text that will appear on the button these are option if you dont want this button just leave both options blank, SERVER_ID is the discord server's ID and is required, OWNER_ID must be the owner of the license key if the license key doesn't match the Owner of the license key the bot will close the server, Max Players will set how many people the bot thinks can join the server this has no affect on the FiveM server if set to less than the max players on it will just display for example 12/10. &nbsp;</content>
+			  <div class="space"></div>
+<content style="topic">Next section is the WELCOME_CHANNEL this will set the channel where the welcome messages are sent, ROLE_ON_JOIN This is a boolean statement meaning it can only be true or false and should not be in quotations if set to true when a membed joins it will give them the role specified in the config line ROLE_ID &nbsp;</content>
+<div class="space"></div>
+<content style="topic">Last section is the Tickets Section starting with parentOpened this is the category that tickets will be created under, Category 1-3 are the different ticket categories people can select after opening a ticket and Category 1-3 emoji is the emoji attached to the category This is required and must be a discord recognised emoji to check this send the emojis in a discord message and if they are converted to :emoji-name: then they are a supported emoji however note that you should not use the :emoji-name: format in the config and should add the emoji straight to the config, roleSupport is the role that will be pinged once a user opens a ticket and selects a category we advise this is set to the general staff role , the logs ticket channel is where all tickets will be sent once closed and deleted. Tickets channel is the channel where the button will appear for users to open a ticket , buttonstyle is best to be left alone however if you decide that you want this changed message us and we will explain how this works  &nbsp;</content>
+<h1 style="topic">Next Step : Starting The Bot &nbsp; &nbsp;</h1>
+			</div>
+<div class="Subtopic02">
+  
+</div>
+		</section>
+<!--Editable-->
+<!--Editable-->
+		<section id="Subtopic05">
+		  <div class="space"></div>
+			<div class="space"></div>
+		  <div class="" style="text-align: center;">
+			<h1>Discord Setup&nbsp;</h1>
+			<content style="topic">Setting up the discord is simple some new channels need to be made for the bot, Note all channel names can be changed as the bot relies on Channel ID's to function, to start with we will create a "Server Status" Channel This is where the constantly updating status message will appear this channel should be locked so all users can view it however not send messages nor react&nbsp;</content>
+			<div class="space"></div>
+<content style="topic">We will now create the "Welcome Channel" This is where the bot will greet new users with an embed this channel should be locked so all users can view it however can not send messages nor react&nbsp;</content>
+<div class="space"></div>
+<content style="topic">Next up we will create the Logging channels for the bot the 3 Channels the bot will need are "Ticket Logs" , "Bug Logs" [&] "General Logs" The Ticket logs channel will be where all ticket transcripts will be posted once a ticket is deleted, The Bug Logs Channel with log all bug reports for the server that users send in and finnaly the General Logs Channel is where the bot will log when a staff member updates the Message of the day on the status message this generally does not have much activity and can generally be shared with the Bug Logs or Ticket Logs Channel. All these channels should be locked to Only Staff&nbsp;</content>
+<div class="space"></div>
+<content style="topic">Lastly we will create the Bug report and Suggestion Channel. The Suggestion channel will automaticly convert all messages to an embed and ad the reactions Thumbs up or down allowing users to vote we advise this channel be locked so users can not add new reactions only using prior reactions. Finnaly the Bug Report Channel will display a message alerting them the report was submitted when a user messages this channel and will delete their message and send the imformation to the bug log channel keeping any and all exploits from spreading via the bug channel this channel should be open for all to message however locked so no users can react &nbsp;</content>
+<h1 style="topic">Next Step : Bot Config &nbsp; &nbsp;</h1>
+		  </div>
+      <div class="Subtopic05">
+
+      </div>
+		</section>
+
+<!--Editable-->
+		<section id="Subtopic06">
+			<div class="space"></div>
+			<div class="" style="text-align: center;">
+				<h1>Starting The Bot</h1>
+				<content style="topic">To Start the bot if running a Server just either restart the server or start the resource note the resource should be ensured. If you are using a VPS to host the bot then run the WindowsStart.bat if there are any errors in the config it will send alert you in the terminal and if an error occurs in the FiveM resource version then you will need to check the console logs and if unsure then the next best way is sending the config to the support server in a ticket and we wil be able to help you from there &nbsp;</content>
+				<h1>End</h1>
+			</div>
+      <div class="Subtopic06">
+
+      </div>
+		</section>
+
+<!--Editable-->
+<!--Editable-->
+<!--Editable-->
+	<section id="sources">
+			<div class="space"></div>
+			<div class="" style="text-align: center;">
+				<h1>Sources</h1>
+			</div>
+			<div class="sources">
+				<ul>
+					<li>Template: <a href="https://github.com/max-acc/Simple_HTML_Presentation_Template">https://github.com/max-acc/Simple_HTML_Presentation_Template</a></li>
+          <li>Links: <a href="https://github.com/max-acc">https://github.com/max-acc</a></li>
+
+					<li>Links: <a href=""></a></li>
+				</ul>
+			</div>
+		</section>
+
+<!--Editable-->
+	<footer>
+<ul>
+  <a href="#Subtopic01">Creating a Bot&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a>
+    
+    <li><a href="#Subtopic05">Discord Setup&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></li>
+        <li></li>
+        <li><a href="#Subtopic02">Bot Config&nbsp;&nbsp;</a></li>
+<li></li>
+        <li></li>
+        <li></li>
+        <li><a href="#Subtopic06">Starting The Bot</a></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </footer>
+
+</body>
+</html>

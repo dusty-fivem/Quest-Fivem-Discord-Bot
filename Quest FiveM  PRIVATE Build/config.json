@@ -1,0 +1,47 @@
+{
+    "QUEST_KEY":"Ignore Me",
+
+    "Status Message Below":"Status Message Below",
+
+    "URL_SERVER": "http://1.1.1.1:30120/",
+    "SERVER_NAME": "Quest Systems",
+    "SERVER_LOGO": "",
+    "EMBED_COLOR": "#",
+    "PERMISSION": "ADMINISTRATOR",
+    "BOT_TOKEN": "",
+    "CHANNEL_ID": "Status Channel ID",
+    "MESSAGE_ID": "Leave Blank",
+    "SUGGESTION_CHANNEL": "Suggestion Channel",
+    "BUG_CHANNEL": "Bug Channel",
+    "BUG_LOG_CHANNEL": "",
+    "LOG_CHANNEL": "",
+    "DEBUG": false,
+    "WEBSITE_URL": "",
+	"WEBSITE_NAME": "Quest Systems",
+    "RESTART_TIMES": "2:00AM",
+	"SHOW_PLAYERS": true,
+	"SERVER_ID": "",
+	"OWNER_ID": "",
+    "MAX_PLAYERS": "24",
+
+	
+	
+	"WELCOME_CHANNEL":"",
+    "ROLE_ON_JOIN":false,
+    "ROLE_ID":"Role on join ID",
+	
+
+	"Tickets Below":"Tickets Below",
+
+	"parentOpened": "",
+    "Category1": "1",
+    "Category2": "2",
+    "Category3": "3",
+	"Category1Emoji": "😀",
+    "Category2Emoji": "🥺",
+    "Category3Emoji": "🥳",
+    "roleSupport": "",
+    "logsTicket": "",
+    "ticketChannel": "",
+	"buttonstyle": "SECONDARY"
+  }
